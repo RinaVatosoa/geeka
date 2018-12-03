@@ -1,0 +1,28 @@
+<!--Navbar-->
+<mdb-navbar SideClass="mb-1 navbar navbar-expand-lg navbar-dark cyan">
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Geeka Girls Madagascar</a></mdb-navbar-brand>
+  <links>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link waves-light" routerLink="" routerLinkActive="active" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" routerLink="/page2" routerLinkActive="active" mdbWavesEffect>About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" routerLink="/inscription" routerLinkActive="active" mdbWavesEffect>Inscription</a>
+      </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown" dropdown>
+        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+          Activities<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Electronics</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Development</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Network and linux</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Games</a>
+        </div>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>
