@@ -9,8 +9,8 @@ import { ParalaxComponent } from './Bundle/paralax/paralax.component';
 import { Page2Component } from './Bundle/page2/page2.component';
 import { FooterComponent } from './Component/footer/footer.component';
 import { InscriptionComponent } from './Bundle/inscription/inscription.component';
-import { TeamComponent } from './Bundle/team/team.component';
-import { CoachComponent } from './Bundle/coach/coach.component';
+import { TeamComponent } from './Component/team/team.component';
+import { CoachComponent } from './Component/coach/coach.component';
 
 
 
