@@ -1,10 +1,10 @@
 # Geeka Girls Madagascar
 
-This project was generated with Angular version 6.0.1.
+This project was generated with Angular version 6.0.1 on december 2018 .
 
 ## Development server
 
-Run `npm install ` then `ng serve --o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install ` then  `npm install typescript@2.9.2 --save-exact` `ng serve --o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
