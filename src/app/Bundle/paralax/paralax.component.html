@@ -42,5 +42,10 @@ background-attachment: fixed; height: 89vh;margin-top: -5px">
     </div>
   </div>
 </div>
+
+<div *ngFor="let members of members | async">
+    <p>{{members.nom}}</p>
+</div>
+
 <app-team></app-team>
 <app-coach></app-coach>
