@@ -13,6 +13,13 @@ import {Members,Query} from '../../types';
 export class ParalaxComponent implements OnInit {
   members: Observable<Members[]>;
   constructor(private apollo:Apollo) {}
+  title = "Our objectives";
+  introduction = "Community dedicated to women Developers for the sharing of experiences and skills in Computer Science."+
+      "\n" +
+      "We're sharing many interesting articles and themes every week.\n" +
+      "There will be also many topics for discussion.\n" +
+      "Then, big events will be organized with workshops and conferences to make our followers evolves";
+  greeting ="Welcome on geeka page!";
 
   ngOnInit() {
     this.members = this.apollo.watchQuery<Query>({
