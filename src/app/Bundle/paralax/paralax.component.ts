@@ -18,7 +18,7 @@ export class ParalaxComponent implements OnInit {
       "\n" +
       "We're sharing many interesting articles and themes every week.\n" +
       "There will be also many topics for discussion.\n" +
-      "Then, big events will be organized with workshops and conferences to make our followers evolves";
+      "Then, big events will be organized with workshops and conferences to make our followers evolves.";
   greeting ="Welcome on geeka page!";
 
   ngOnInit() {
